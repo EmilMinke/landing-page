@@ -33,6 +33,13 @@ h2 {
     font-weight: 900;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
 .header {
     background-color: #1F2937;
 }
@@ -107,20 +114,20 @@ button {
 
 .information {
     background-color: white;
-    margin: 50px 0 100px 0;
 }
 
 .flex.container {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0 0 0;
 }
 
 .box.container {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-top: 50px;
+    padding: 50px 0 100px 0;
 }
 
 .rbox,
@@ -128,7 +135,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
 }
 
 .subtext p {
@@ -145,4 +152,31 @@ button {
     padding: 20px;
     width: 150px;
     height: 150px;
+}
+
+.testimonials {
+    background-color: #E5E7EB;
+}
+
+.testimonial.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 850px;
+    padding: 120px 0;
+}
+
+.testimonial.container h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.testimonial.container p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 700;
+    padding: 0 100px;
 }
