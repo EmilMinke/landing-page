@@ -27,6 +27,12 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .header {
     background-color: #1F2937;
 }
@@ -97,4 +103,46 @@ button {
     background-color: grey;
     color: #F9FAF8;
     min-height: 250px;
+}
+
+.information {
+    background-color: white;
+    margin: 50px 0 100px 0;
+}
+
+.flex.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.rbox,
+.subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.subtext p {
+    text-align: center;
+    border-radius: 25px;
+    border: 0;
+    padding: 0;
+    width: 150px;
+}
+
+.rounded {
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
 }
