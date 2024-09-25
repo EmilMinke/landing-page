@@ -40,6 +40,10 @@ h3 {
     color: #1F2937;
 }
 
+h4 {
+    font-size: 22px;
+}
+
 .header {
     background-color: #1F2937;
 }
@@ -179,4 +183,23 @@ button {
     align-items: center;
     font-weight: 700;
     padding: 0 100px;
+}
+
+.call-to-action {
+    background-color: white;
+}
+
+.cta {
+    margin: 80px 0;
+    padding: 40px 120px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta button {
+    border: 2px solid #E5E7EB;
 }
